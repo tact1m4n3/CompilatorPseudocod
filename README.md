@@ -34,3 +34,5 @@ More complexity will be added in the future
 The compiler is outputing c++ code that is then compiled using g++
 
 See the file program.pseudo as an example algorithm written in pseudocode. 
+
+To compile the file write "python3 pseudocod.py program.pseudo"
