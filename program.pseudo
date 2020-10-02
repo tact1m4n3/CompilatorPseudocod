@@ -7,4 +7,4 @@ daca a > b atunci
 altfel
     c <- b - a
 sfdaca
-scrie c
+scrie "Modulul scaderii numarului ", b, " din numarul ", a, " este: ", c

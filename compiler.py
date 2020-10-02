@@ -37,6 +37,9 @@ int main() {
     def visit_IdentifierNode(self, node):
         return node.tok.value, None
     
+    def visit_StringNode(self, node):
+        return "\"" + node.tok.value + "\"", None
+    
     def visit_UnaryOperationNode(self, node):
         value_code, error = self.visit(node.node)
         if error:
