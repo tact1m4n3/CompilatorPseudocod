@@ -1,0 +1,10 @@
+Di: a natural, b real
+Do: c real
+
+citeste a, b
+daca a > b atunci
+    c <- a - b
+altfel
+    c <- b - a
+sfdaca
+scrie c
