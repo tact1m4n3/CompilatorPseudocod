@@ -7,6 +7,7 @@ if __name__ == "__main__":
     filename = sys.argv[1]
     cpp_filename = filename.split(".")[0] + ".cpp"
     exec_filename = filename.split(".")[0]
+    
     with open(filename, "r+") as f:
         _input = f.read()
     lexer = Lexer(_input, filename)
