@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 int a;
 float b;
-float c;
+int c;
 cin >> a >> b;
 if((a>b)){
 c=(a-b);

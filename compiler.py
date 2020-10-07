@@ -49,8 +49,8 @@ int main() {
             code = "+" + value_code
         elif node.operation_tok.type == MINUS:
             code = "-" + value_code
-        elif node.operation_tok.matches(KEYWORD, "nu"):
-            code = "!" + value_code
+        #elif node.operation_tok.matches(KEYWORD, "nu"):
+            #code = "!" + value_code
         else:
             return None, RTError("Unary operator of type {} is unhandled!".format(node.operation_tok.type), node.position_start, node.position_end)
         
